@@ -271,6 +271,7 @@ export class Vector3 implements Vector {
 	 * @param offset (optional) optional offset into the array.
 	 * @return The created or provided array.
 	 */
+	toArray( array?: [number, number, number], offset?: 0 ): [number, number, number];
 	toArray( array?: number[], offset?: number ): number[];
 
 	/**
